@@ -38,7 +38,7 @@ a{color:inherit}
 
 /* HERO */
 .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;color:#fff;overflow:hidden;padding-top:calc(var(--nav-h) + var(--ribbon-h))}
-.hero-bg{position:absolute;inset:-4%;background:url('https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=1800&q=75&auto=format&fit=crop') center 35%/cover;animation:kb 26s ease-in-out infinite alternate}
+.hero-bg{position:absolute;inset:-4%;background:url('assets/img/photo-1487530811176-3780de880c2d-1800.jpg') center 35%/cover;animation:kb 26s ease-in-out infinite alternate}
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.09) translate(-1.5%,1%)}}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(100deg,rgba(24,32,23,.82) 0%,rgba(24,32,23,.55) 48%,rgba(24,32,23,.15) 100%)}
 .petals{position:absolute;inset:0;pointer-events:none}
